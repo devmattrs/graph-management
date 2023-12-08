@@ -1,0 +1,59 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@ui/*": [
+				"./src/components/ui/*"
+			],
+			"@components/*": [
+				"./src/components/*"
+			],
+			"@images/*": [
+				"src/public/images/*"
+			],
+			"@utils/*": [
+				"./src/utils/*"
+			],
+			"@public/*": [
+				"./public/*"
+			]
+		},
+		"target": "es6",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"noUncheckedIndexedAccess": true,
+		"baseUrl": ".",
+		"allowJs": true,
+		"plugins": [
+			{
+				"name": "next"
+			}
+		]
+	},
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.cjs",
+		"**/*.mjs",
+		".eslint.config.js",
+		".next/types/**/*.ts"
+	],
+	"extends": "../../tsconfig.json",
+	"exclude": [
+		"node_modules"
+	]
+}

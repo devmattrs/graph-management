@@ -1,0 +1,19 @@
+{
+	"name": "@strukt/api",
+	"version": "0.1.0",
+	"main": "index.ts",
+	"license": "MIT",
+	"files": [
+		"index.ts",
+		"router.ts",
+		"context.ts"
+	],
+	"dependencies": {
+		"@stripe/stripe-js": "^1.52.1",
+		"@strukt/database": "workspace:*",
+		"@supabase/supabase-js": "2.29.0",
+		"@supabase/auth-helpers-nextjs": "latest",
+		"typescript": "^5.0.4",
+		"zod": "^3.20.2"
+	}
+}

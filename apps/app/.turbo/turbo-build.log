@@ -1,0 +1,65 @@
+
+> @strukt/app@0.1.0 build /Users/mattrs/projects/strukt/apps/app
+> pnpm next build
+
+- warn You have enabled experimental feature (serverActions) in next.config.mjs.
+- warn Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+- info Creating an optimized production build...
+- info Compiled successfully
+- info Skipping validation of types
+- info Skipping linting
+- info Collecting page data...
+- info Generating static pages (0/9)
+- info Generating static pages (2/9)
+- info Generating static pages (4/9)
+
+- warn metadata.metadataBase is not set for resolving social open graph or twitter images, fallbacks to "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+
+- warn metadata.metadataBase is not set for resolving social open graph or twitter images, fallbacks to "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+
+- warn metadata.metadataBase is not set for resolving social open graph or twitter images, fallbacks to "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+
+
+
+
+- info Generating static pages (6/9)
+
+
+- info Generating static pages (9/9)
+- info Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ λ /                                      859 B           362 kB
+├ λ /api/create-checkout-session           0 B                0 B
+├ λ /api/create-portal-link                0 B                0 B
+├ λ /api/trpc/[trpc]                       0 B                0 B
+├ λ /api/webhooks                          0 B                0 B
+├ ○ /auth                                  2.01 kB         120 kB
+├ λ /auth/callback                         0 B                0 B
+├ ○ /settings                              3.94 kB         140 kB
+├ λ /settings/billing                      6.03 kB        96.5 kB
+└ ○ /settings/preferences                  2.93 kB         364 kB
++ First Load JS shared by all              82.5 kB
+  ├ chunks/178-28a62a210938c351.js         27.8 kB
+  ├ chunks/79306975-1097c2d4a064610c.js    52.7 kB
+  ├ chunks/main-app-d547beb945a4d7bc.js    215 B
+  └ chunks/webpack-6d9ae8c43e601d1f.js     1.79 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   171 B          86.7 kB
++ First Load JS shared by all              86.5 kB
+  ├ chunks/main-d89a64243511b1e2.js        84.5 kB
+  ├ chunks/pages/_app-415a5670032b79f5.js  190 B
+  └ chunks/webpack-6d9ae8c43e601d1f.js     1.79 kB
+
+ƒ Middleware                               102 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+Next.js Speed Insights is enabled for this production build. You'll receive a Real Experience Score computed by all of your visitors.
+

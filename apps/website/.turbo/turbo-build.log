@@ -1,0 +1,30 @@
+
+> @strukt/website@0.1.0 build /Users/mattrs/Projects/strukt/apps/website
+> next build
+
+warn  - You have enabled experimental feature (scrollRestoration) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/3)
+info  - Generating static pages (3/3)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      28.1 kB         103 kB
+├   /_app                                  0 B            75.1 kB
+└ ○ /404                                   182 B          75.3 kB
++ First Load JS shared by all              81.2 kB
+  ├ chunks/framework-19f3649580393c10.js   45.2 kB
+  ├ chunks/main-a4297ac03363f253.js        27.5 kB
+  ├ chunks/pages/_app-0479f168af847b9d.js  1.6 kB
+  ├ chunks/webpack-b8f8d6679aaa5f42.js     755 B
+  └ css/702ac41a94b34c6d.css               6.06 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+Next.js Analytics is enabled for this production build. You'll receive a Real Experience Score computed by all of your visitors.
+

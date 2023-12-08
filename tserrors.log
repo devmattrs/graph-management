@@ -1,0 +1,23 @@
+• Packages in scope: @strukt/api, @strukt/app, @strukt/database, @strukt/eslint-config, @strukt/logger, @strukt/website
+• Running type-check in 6 packages
+• Remote caching enabled
+@strukt/app:type-check: cache bypass, force executing e6584b28e171d590
+@strukt/website:type-check: cache bypass, force executing d47106e2c9c18e79
+@strukt/app:type-check: 
+@strukt/app:type-check: > @strukt/app@0.1.0 type-check /Users/mattrs/Projects/strukt/apps/app
+@strukt/app:type-check: > tsc --noEmit
+@strukt/app:type-check: 
+@strukt/website:type-check: 
+@strukt/website:type-check: > @strukt/website@0.1.0 type-check /Users/mattrs/Projects/strukt/apps/website
+@strukt/website:type-check: > tsc --noEmit
+@strukt/website:type-check: 
+@strukt/website:type-check: ../../prettier.config.mjs(2,22): error TS7016: Could not find a declaration file for module 'prettier-plugin-tailwindcss'. '/Users/mattrs/Projects/strukt/node_modules/prettier-plugin-tailwindcss/dist/index.js' implicitly has an 'any' type.
+@strukt/website:type-check:   Try `npm i --save-dev @types/prettier-plugin-tailwindcss` if it exists or add a new declaration (.d.ts) file containing `declare module 'prettier-plugin-tailwindcss';`
+@strukt/website:type-check:  ELIFECYCLE  Command failed with exit code 2.
+@strukt/app:type-check:  ELIFECYCLE  Command failed.
+
+ Tasks:    0 successful, 2 total
+Cached:    0 cached, 2 total
+  Time:    1.863s 
+Failed:    @strukt/website#type-check
+

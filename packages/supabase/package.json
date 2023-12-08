@@ -1,0 +1,12 @@
+{
+	"name": "@strukt/database",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.d.ts",
+	"author": "",
+	"scripts": {
+		"gen-types": "supabase gen types typescript --local > index.d.ts",
+		"gen-remote": "supabase gen types typescript --linked > index.d.ts"
+	},
+	"license": "ISC"
+}

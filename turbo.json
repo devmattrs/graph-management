@@ -1,0 +1,42 @@
+{
+	"$schema": "https://turborepo.org/schema.json",
+	"globalDependencies": ["**/.env", "tsconfig.json"],
+	"pipeline": {
+		"gen-types": {
+			"outputs": ["./packages/supabase/index.d.ts"],
+			"cache": false
+		},
+		"dev": {
+			"dependsOn": ["^gen-types"],
+			"persistent": true,
+			"cache": false
+		},
+		"landing": {
+			"dependsOn": ["^build-landing"],
+			"outputs": [".next/**", ".expo/**"]
+		},
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": [".next/**", ".expo/**"]
+		},
+		"lint": {},
+		"lint:fix": {},
+		"clean": {
+			"cache": false
+		},
+		"//#clean": {
+			"cache": false
+		},
+		"type-check": {
+			"cache": false
+		}
+	},
+	"globalEnv": [
+		"CI",
+		"DATABASE_URL",
+		"NODE_ENV",
+		"SKIP_ENV_VALIDATION",
+		"VERCEL",
+		"VERCEL_URL"
+	]
+}

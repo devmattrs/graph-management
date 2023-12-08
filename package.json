@@ -1,0 +1,30 @@
+{
+	"name": "strukt",
+	"private": true,
+	"packageManager": "pnpm@8.6.0",
+	"scripts": {
+		"build": "dotenv -- turbo build",
+		"clean": "git clean -xdf node_modules",
+		"clean:workspaces": "turbo clean",
+		"dev": "dotenv -- turbo dev --parallel",
+		"format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json}\" --ignore-path .gitignore",
+		"lint": "turbo lint && manypkg check",
+		"lint:fix": "turbo lint:fix && manypkg fix",
+		"type-check": "turbo type-check > tserrors.log",
+		"stripe:listen": "stripe listen --forward-to=localhost:3000/api/webhooks --project-name=strukt"
+	},
+	"devDependencies": {
+		"dotenv-cli": "latest"
+	},
+	"dependencies": {
+		"@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+		"@manypkg/cli": "^0.20.0",
+		"@strukt/eslint-config": "^0.1.0",
+		"@types/prettier": "^2.7.3",
+		"eslint": "^8.51.0",
+		"prettier": "^2.8.8",
+		"prettier-plugin-tailwindcss": "^0.2.8",
+		"turbo": "^1.10.15",
+		"typescript": "^5.2.2"
+	}
+}

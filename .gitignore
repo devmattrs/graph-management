@@ -1,0 +1,10 @@
+**/node_modules/
+.env
+.env.local
+.env.development.local
+check.env
+**/.next/.turbo
+**/.next
+.vercel
+.env*
+.env*.local

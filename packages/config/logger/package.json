@@ -1,0 +1,13 @@
+{
+	"name": "@strukt/logger",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/npmlog": "^4.1.4",
+		"npmlog": "^7.0.1"
+	}
+}

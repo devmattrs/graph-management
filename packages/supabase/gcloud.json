@@ -1,0 +1,13 @@
+{
+	"type": "service_account",
+	"project_id": "app-zero-293801",
+	"private_key_id": "1aea43dadd8dbdbf16684b59a091bd6d72c0dd16",
+	"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCWlsHmnAcK4epm\n7bUoyAGk9Jv0lL2XK2ERdaJ2PGaio7ldXkyqPg4griTPKMbZaT4HnBuaLKn30pW3\nhvrckDTpbI8f3PcItDG/wnAouxiYgtE1vvdAWIgmMANopGF4VlqdZeX+wxejf1Ow\nNGVE3EdW8fN3vbD9mDLFQ7mHpyl/s3J198BqgN4VThIPYYuv+ivHU2EAEKM1oXP+\nqNwwIRx0gwwWPAvQu8NcgZhsCvbLBn9Gd3BiXG9UmJOfGusEKHRdpUDvcV17rx/6\nvVYL77O553o6ItbOdU/HfNrZtzSLhTKAZYoOX1LzTUzN4diFbZlqBWSQz/a7UWuS\n3GMHuujdAgMBAAECgf9tdRnWg6CfXwp4N7ZJCXc857He6F5nsrpWBmHBK922+MdZ\nWE0NrH7OvuxhrEaVB23R305DCLLiDC085aCvxguAMPTnc5y2cKxFEyjShHuL3D/N\nQDyBRPqvWDt8sAhI4VDKa5qf1RzBxhp2zFQxLyTUfOVt5sMX8NYYg8KHJwWj6T8E\nFNntcM3+FwoPBcuQ10vtjTTK8AcrPY7Vmw82cp1c7IcrMVuvU7UBus6/jY258ToK\n27uKBmLPBZVEN1Z58og8PFnlg2V3w9nCuVTURXGF/ad/TICk5PbrAQ+5tO8S2uvX\nDtKrihQ/UU1hnId76qRhZw3GnYa0Of8tHgb97fUCgYEAyTVUYFf6A+G01Fde1Vvh\nWNjD5uGMZ3pryanyOmT7US2qAcfp+H8V3tDhbKz57YFcu+E8/IePSZr1njiGz/e3\nmgTzVoKORDswX3fQdnpwf5oY/54THgALdNpeKRLgS0B68rpfXaTbdSNMhNlKA58M\nuXQgMa3om9TvvxKqF+jqNP8CgYEAv5ijN5EMNNf+espF2bb4VggeB7OLo4Vt6VFf\nG3BFYbav915M97qHbYcg+u/2uaIc3iPkCnVRIMecvwVb16VLAHhdTCQfQNV82lds\n73mGAv03i/T0ErwnMEYyjjiK4rdn+liKTs2IMVVCNREHyutK3y/GGnYzDno+eV9W\ng3YYViMCgYAhaMuD29fVwSqHf6Jthv4aBJQyyAzKOdef+qoP7CiWyCBMf2doLaHy\nB3kG1IoDV9GQGMxJmjC+pg5WoUgxTA6ecmf9W1xIFBPqJjjlE1uOtIWmHBdMifFd\nC81KwKmhlSlVGIExSWhvQNc5z+KsS0KPoKqf1SKkjWzpqy23HqOU/QKBgEBDlEtp\nDW0UHblV60PxSS6iHmB66pV4hbtCneH4MG1r923DZZGaMR6duoQwxNLS+1fPNggD\n/ag/C+ZOh9W3DYck2DZXz1vRv8UEmfdhDYAnKuB40v0Nux9IDGEDuiH9XpTr6cgw\nzEOv0zs1cSWw8jYWMh5iExICEr5nKf+CNvt9AoGAF+/GA92w0bSgHm9+HrkAVLA0\n1drJ5GoG9fo5OMNEJjfqg9kLKh7Vzkyppy2Np0LvjW2buSXtfGxGaZYPqKWM2cid\nxDt74CNoKtirJK9j4y22ieR2E1OES+IXFyCVG2hhN1inEpA60x7ELf6Xh5p35CH4\nJiPiR68Sux4GuUoP8js=\n-----END PRIVATE KEY-----\n",
+	"client_email": "local-supabase-analytics@app-zero-293801.iam.gserviceaccount.com",
+	"client_id": "101330279080403338078",
+	"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	"token_uri": "https://oauth2.googleapis.com/token",
+	"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/local-supabase-analytics%40app-zero-293801.iam.gserviceaccount.com",
+	"universe_domain": "googleapis.com"
+}

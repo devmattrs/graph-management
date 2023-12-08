@@ -1,0 +1,6 @@
+packages:
+  - apps/website
+  - apps/app
+  - packages/api
+  - packages/supabase
+  - packages/config/*
