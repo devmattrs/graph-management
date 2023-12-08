@@ -100,9 +100,9 @@ enable_confirmations = false
 # `twitter`, `slack`, `spotify`, `workos`, `zoom`.
 [auth.external.google]
 enabled = true 
-client_id = "268433412276-ogo6h2b4bdtr5uk882rr4calkgb9g5u6.apps.googleusercontent.com"
+client_id = "359821061464-vh354dvfdfk5kdaquiu53p5eoeqpk7ll.apps.googleusercontent.com"
 # DO NOT commit your OAuth provider secret to git. Use environment variable substitution instead:
-secret = "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"
+secret = "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"
 # Overrides the default auth redirectUrl.
 # redirect_uri = "http://localhost:3000/auth/callback"
 # Overrides the default auth provider URL. Used to support self-hosted gitlab, single-tenant Azure,
