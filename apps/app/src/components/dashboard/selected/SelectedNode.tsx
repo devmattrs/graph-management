@@ -66,7 +66,7 @@ export const SelectedNode = ({ node }: SelectedNodeProps) => {
 
 	useEffect(() => {
 		Object.keys(node).forEach((key) => {
-			// @ts-ignore
+			//@ts-ignore
 			form.setValue(key, node[key]);
 		});
 	}, [node, form]);
